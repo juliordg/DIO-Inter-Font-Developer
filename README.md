@@ -2,6 +2,8 @@
 Desafio do Git/GitHub da DIO
 
 ## Nesse repositório acompanharemos a evolução no bootcamp DIO-Inter 
+
+# Atualizando on-line 
 ## Links Úteis
 [Sintaxe Basica Markdown](https://www.markdownguide.org/getting-started/)
 
