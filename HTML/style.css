@@ -1,0 +1,106 @@
+/* CSS - Objetivos
+1 - O que são seletores
+2 - Conceitos Basicos
+3 - Principais seletores CSS 
+
+Usamos o ponto(.) para chamar uma class
+Usamo o hasteg(#) para chamr uma classe
+Box model => tem 4 areas 
+margem (margin) => espaçamento sobre elementos
+borda (border) circunda o padding e conteudo -> conseguimos alterar a aparencia dela como largura e cor
+(padding) espaçamento entre a borda e o conteudo ->
+conteudo (content) -> conteudo que seu bloco representa
+
+parte superior e inferior depois lado esquerdo e direito
+padding: 10px 5px => O eixo X -> 10px referisse ao lado superior e inferior e o eixo Y -> 5px referesse ao lado esquerdo e direito.
+padding: 15px 10px 5px 0 => o 15px para o topo, o 10px para direita, o 5px para parte inferior, o 0 lado esquerdo.
+OBS. quando usamos o 0 (zero) não precisar usar uma unidade.
+
+propriedade especifica para cada lado ex.
+.post {
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+background com nome em ingles, codigo essadecimal
+
+borda pode conter largura, cor e estilo
+posso criar um estilo diferente para cada lado de uma borda
+border-radius -> aredondar as bordas usamo o 10px ou 10%
+
+font-transform: uppercase -> tudo maiusculo
+font-transform: lowercase -> tudo minuusculo
+font-transform: captalize -> tudas 1º letras em maiusculo
+
+text-decoration: da destaque no texo com uma linha
+text-decoration: underline -> um linha a baixo da palavra
+text-decoration: overline -> um linha a cima da palavra
+text-decoration: line-trough -> um linha cortando a palavra
+
+Style de listas
+list-style-type
+
+width -> largura
+height -> altura
+
+max-widght
+max-height
+
+margin
+
+text aling -> para alinhar texto, left- aesquerda, center- ao centro, wirith- adireite, justfine para justificar
+*/
+
+body {
+    background: #f7f7f7;   
+    font-family: verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+#title, .subtitle, .post_title {
+    color: #505050;
+}
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: line-through;
+    color: #505050;
+}
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post {
+    background: #fff;
+    padding: 15px;
+    border: 3px solid #000;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.post_conten {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.post_img {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.photo {
+    border: 10px solid #505050;
+    border-radius: 50%;
+}
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+.contact_list li a {
+    text-decoration: none;
+}
