@@ -21,9 +21,26 @@ header .container {
     margin-left: 50px;
     margin-bottom: 10px;
     display: flex;
+    align-items: center;
+
+}
+.menu {
+    margin-left: 70px;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #e5e5e5;
+    transition: color .4s;
+}
+
+.perfil {
+    height: 50px;
+}
+.menuDois {
+    margin-left: 670px;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 header .logo {
@@ -93,11 +110,6 @@ main .container {
 .botao:hover {
     background-color: white;
     color: black;
-}
-
-.menu {
-    font-size: 18px;
-    font-family: 'Arial Black', times;
 }
 
 .botao i {
